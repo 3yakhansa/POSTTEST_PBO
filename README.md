@@ -31,10 +31,10 @@ Program ini dibuat menggunakan bahasa pemrograman Java. Tujuan utamanya adalah u
 Program ini terdiri dari 2 file Java utama yang saling berkaitan:
 
 1. Kucing.java
-  Class ini berfungsi sebagai blueprint atau cetakan untuk objek kucing. Di sini didefinisikan properti seperti id, nama, ras, usia, dan status. Class ini juga memiliki method getter/setter
-  untuk encapsulasi data dan method untuk menampilkan info kucing.
-2. Main.java
-  Class ini merupakan entry point program. Berisi logika utama seperti menu interaktif, input user menggunakan Scanner, dan eksekusi fungsi CRUD menggunakan loop dan conditional statement.
+   Class ini berfungsi sebagai blueprint atau cetakan untuk objek kucing. Di sini didefinisikan properti seperti id, nama, ras, usia, dan status. Class ini juga memiliki method getter/setter
+   untuk encapsulasi data dan method untuk menampilkan info kucing.
+3. Main.java
+   Class ini merupakan entry point program. Berisi logika utama seperti menu interaktif, input user menggunakan Scanner, dan eksekusi fungsi CRUD menggunakan loop dan conditional statement.
 
 ### D. Output Program
 | Fitur | Screenshot |
