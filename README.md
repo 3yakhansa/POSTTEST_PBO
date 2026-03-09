@@ -39,9 +39,9 @@ Program ini terdiri dari 2 file Java utama yang saling berkaitan:
 ### D. Output Program
 | Fitur | Screenshot |
 |-------|-----------|
-| **Menu Utama** | ![Menu](screenshots/tampilanMenu.png) |
-| **Tambah Data** | ![Create](screenshots/tambahData.png) |
-| **Lihat Data** | ![Read](screenshots/tampilkanData.png) |
-| **Update Data** | ![Update](screenshots/updateData.png) |
-| **Hapus Data** | ![Delete](screenshots/hapusData.png) |
-| **Exit** | ![Exit](screenshots/keluarProgram.png) |
+| **Menu Utama** | ![Menu](POSTTEST_1/screenshots/tampilanMenu.png) |
+| **Tambah Data** | ![Create](POSTTEST_1/screenshots/tambahData.png) |
+| **Lihat Data** | ![Read](POSTTEST_1/screenshots/tampilkanData.png) |
+| **Update Data** | ![Update](POSTTEST_1/screenshots/updateData.png) |
+| **Hapus Data** | ![Delete](POSTTEST_1/screenshots/hapusData.png) |
+| **Exit** | ![Exit](POSTTEST_1/screenshots/keluarProgram.png) |
