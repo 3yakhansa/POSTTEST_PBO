@@ -37,16 +37,11 @@ Program ini terdiri dari 2 file Java utama yang saling berkaitan:
   Class ini merupakan entry point program. Berisi logika utama seperti menu interaktif, input user menggunakan Scanner, dan eksekusi fungsi CRUD menggunakan loop dan conditional statement.
 
 ### D. Output Program
-1. Tampilan Menu
-![Tampilan Menu](screenshots/tampilanMenu.png)
-   
-2. Menambahkan Data Kucing
-
-
-3. Melihat Data Kucing
-
-
-4. Memperbarui Data Kucing
-
-
-5. Menghapus Data Kucing
+| Fitur | Screenshot |
+|-------|-----------|
+| **Menu Utama** | ![Menu](screenshots/tampilanMenu.png) |
+| **Tambah Data** | ![Create](screenshots/tambahData.png) |
+| **Lihat Data** | ![Read](screenshots/tampilkanData.png) |
+| **Update Data** | ![Update](screenshots/updateData.png) |
+| **Hapus Data** | ![Delete](screenshots/hapusData.png) |
+| **Exit** | ![Exit](screenshots/keluarProgram.png) |
