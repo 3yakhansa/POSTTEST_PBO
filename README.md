@@ -1,13 +1,13 @@
-### POSTTEST_PBO
+# POSTTEST_PBO
 
 ## POST TEST 1
 
-# Sistem Manajemen Shelter Kucing PawPatrol 😼🙌
+## Sistem Manajemen Shelter Kucing PawPatrol 😼🙌
 
-# A. Deskripsi Program
+### A. Deskripsi Program
 Program ini dibuat menggunakan bahasa pemrograman Java. Tujuan utamanya adalah untuk memudahkan pengelolaan data kucing yang ada di shelter, mulai dari pencatatan kucing baru hingga update status adopsi. Sistem ini dibangun menggunakan konsep Object-Oriented Programming (OOP) di mana data kucing dibungkus dalam sebuah Class, dan penyimpanan datanya menggunakan ArrayList agar bersifat dinamis (bisa tambah/hapus tanpa batas ukuran tetap). Program ini berjalan secara interaktif menggunakan looping menu, jadi pengguna bisa melakukan banyak operasi sampai memutuskan untuk keluar.
 
-# B. Fitur Program
+### B. Fitur Program
 1. Menu Utama
    Pada bagian ini pengguna dapat melihat apa saja menu yang tersedia dan dapat diakses. Ada 5 opsi yang dapat dipilih oleh pengguna seperti yang terdapat pada gambar.
   
@@ -27,7 +27,7 @@ Program ini dibuat menggunakan bahasa pemrograman Java. Tujuan utamanya adalah u
 - Fitur ini digunakan untuk menghapus data kucing yang ada.
   User pilih ID kucing → Data dihapus dari ArrayList (misal karena sudah diadopsi).
 
-# C. Struktur Kode
+### C. Struktur Kode
 Program ini terdiri dari 2 file Java utama yang saling berkaitan:
 
 1. Kucing.java
@@ -36,13 +36,17 @@ Program ini terdiri dari 2 file Java utama yang saling berkaitan:
 2. Main.java
   Class ini merupakan entry point program. Berisi logika utama seperti menu interaktif, input user menggunakan Scanner, dan eksekusi fungsi CRUD menggunakan loop dan conditional statement.
 
-# D. Output Program
+### D. Output Program
 1. Tampilan Menu
+![Tampilan Menu](screenshots/tampilanMenu.png)
    
-3. Menambahkan Data Kucing
-   
-4. Melihat Data Kucing
-   
-5. Memperbarui Data Kucing
-   
-6. Menghapus Data Kucing
+2. Menambahkan Data Kucing
+
+
+3. Melihat Data Kucing
+
+
+4. Memperbarui Data Kucing
+
+
+5. Menghapus Data Kucing
