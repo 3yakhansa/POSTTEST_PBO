@@ -44,3 +44,59 @@ Program ini terdiri dari 2 file Java utama yang saling berkaitan:
 | **Update Data** | ![Update](POSTTEST_1/screenshots/updateData.png) |
 | **Hapus Data** | ![Delete](POSTTEST_1/screenshots/hapusData.png) |
 | **Exit** | ![Exit](POSTTEST_1/screenshots/keluarProgram.png) |
+
+##POST TEST 2
+
+###A. PENGERTIAN ENCAPSULATION DAN ACCESS MODIFIER
+- Encapsulation (enkapsulasi) adalah salah satu konsep fundamental dalam Object-Oriented Programming (OOP) yang membungkus data (variabel) dan metode (fungsi) yang memanipulasinya menjadi satu kesatuan (kelas) serta membatasi akses langsung ke data tersebut dari luar
+- Access modifier adalah kata kunci (keyword) yang menentukan visibilitas dan tingkat akses suatu class, method, atau atribut (field).
+
+###B. PENERAPAN ENCAPSULATION
+
+###1. Tabel Access Modifier Atribut
+
+| Atribut | Private | Getter | Setter | Validasi |
+|---------|:-------:|:------:|:------:|:--------:|
+| `id` | ✅ | `getId()` | ❌ | ID tidak bisa diubah |
+| `nama` | ✅ | `getNama()` | `setNama()` | - |
+| `ras` | ✅ | `getRas()` | `setRas()` | - |
+| `usia` | ✅ | `getUsia()` | `setUsia()` | ✅ Usia > 0 |
+| `status` | ✅ | `getStatus()` | `setStatus()` | - |
+
+---
+
+###2. Tabel Metode Getter
+
+| No | Method | Tipe Return | Deskripsi |
+|:--:|--------|:-----------:|-----------|
+| 1 | `getId()` | `int` | Mengambil nilai ID kucing |
+| 2 | `getNama()` | `String` | Mengambil nilai nama kucing |
+| 3 | `getRas()` | `String` | Mengambil nilai ras kucing |
+| 4 | `getUsia()` | `int` | Mengambil nilai usia kucing |
+| 5 | `getStatus()` | `String` | Mengambil nilai status kucing |
+
+---
+
+###3. Tabel Metode Setter
+
+| No | Method | Parameter | Deskripsi | Validasi |
+|:--:|--------|:---------:|-----------|:--------:|
+| 1 | `setNama(String nama)` | `String` | Mengubah nama kucing | - |
+| 2 | `setRas(String ras)` | `String` | Mengubah ras kucing | - |
+| 3 | `setUsia(int usia)` | `int` | Mengubah usia kucing | ✅ `usia > 0` |
+| 4 | `setStatus(String status)` | `String` | Mengubah status kucing | - |
+
+---
+
+###4. Tabel Access Modifier yang Digunakan
+
+| Modifier | Lokasi | Contoh Kode | Keterangan |
+|:--------:|--------|-------------|------------|
+| `private`  | `Kucing.java` | `private int id;` | Hanya bisa diakses dalam class |
+| `public`  | `Kucing.java` | `public String getNama()` | Bisa diakses dari mana saja |
+| `protected` | `Kucing.java` | `protected String getDetailInternal()` | Bisa diakses subclass |
+| `default`  | `Main.java` | `static ArrayList<Kucing> dataKucing` | Bisa diakses dalam package |
+
+---
+
+###C. Hasil Output
