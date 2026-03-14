@@ -45,6 +45,8 @@ Program ini terdiri dari 2 file Java utama yang saling berkaitan:
 | **Hapus Data** | ![Delete](POSTTEST_1/screenshots/hapusData.png) |
 | **Exit** | ![Exit](POSTTEST_1/screenshots/keluarProgram.png) |
 
+---
+
 ##POST TEST 2
 
 ###A. PENGERTIAN ENCAPSULATION DAN ACCESS MODIFIER
@@ -100,3 +102,12 @@ Program ini terdiri dari 2 file Java utama yang saling berkaitan:
 ---
 
 ###C. Hasil Output
+| Fitur | Screenshot |
+|-------|-----------|
+| **Menu Utama** | ![Menu](POSTTEST_1/screenshots/MenuUtamaPT2.png) |
+| **Tambah Data** | ![Create](POSTTEST_1/screenshots/tambahData2.png) |
+| **Lihat Data Kucing** | ![Read](POSTTEST_1/screenshots/lihatKucing2.png) |
+| **Update Data Kucing** | ![Update](POSTTEST_1/screenshots/updateKucing2.png) |
+| **Hapus Kucing** | ![Delete](POSTTEST_1/screenshots/hapusKucing2.png) |
+| **Tes Protected Access** | ![Protected](POSTTEST_1/screenshots/TesProtected2.png) |
+| **Keluar** | ![Exit](POSTTEST_1/screenshots/keluar2.png) |
