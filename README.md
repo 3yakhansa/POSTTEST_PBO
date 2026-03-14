@@ -47,15 +47,15 @@ Program ini terdiri dari 2 file Java utama yang saling berkaitan:
 
 ---
 
-##POST TEST 2
+## POST TEST 2
 
-###A. PENGERTIAN ENCAPSULATION DAN ACCESS MODIFIER
+### A. PENGERTIAN ENCAPSULATION DAN ACCESS MODIFIER
 - Encapsulation (enkapsulasi) adalah salah satu konsep fundamental dalam Object-Oriented Programming (OOP) yang membungkus data (variabel) dan metode (fungsi) yang memanipulasinya menjadi satu kesatuan (kelas) serta membatasi akses langsung ke data tersebut dari luar
 - Access modifier adalah kata kunci (keyword) yang menentukan visibilitas dan tingkat akses suatu class, method, atau atribut (field).
 
-###B. PENERAPAN ENCAPSULATION
+### B. PENERAPAN ENCAPSULATION
 
-###1. Tabel Access Modifier Atribut
+### 1. Tabel Access Modifier Atribut
 
 | Atribut | Private | Getter | Setter | Validasi |
 |---------|:-------:|:------:|:------:|:--------:|
@@ -67,7 +67,7 @@ Program ini terdiri dari 2 file Java utama yang saling berkaitan:
 
 ---
 
-###2. Tabel Metode Getter
+### 2. Tabel Metode Getter
 
 | No | Method | Tipe Return | Deskripsi |
 |:--:|--------|:-----------:|-----------|
@@ -79,7 +79,7 @@ Program ini terdiri dari 2 file Java utama yang saling berkaitan:
 
 ---
 
-###3. Tabel Metode Setter
+### 3. Tabel Metode Setter
 
 | No | Method | Parameter | Deskripsi | Validasi |
 |:--:|--------|:---------:|-----------|:--------:|
@@ -90,7 +90,7 @@ Program ini terdiri dari 2 file Java utama yang saling berkaitan:
 
 ---
 
-###4. Tabel Access Modifier yang Digunakan
+### 4. Tabel Access Modifier yang Digunakan
 
 | Modifier | Lokasi | Contoh Kode | Keterangan |
 |:--------:|--------|-------------|------------|
@@ -101,7 +101,7 @@ Program ini terdiri dari 2 file Java utama yang saling berkaitan:
 
 ---
 
-###C. Hasil Output
+### C. Hasil Output
 | Fitur | Screenshot |
 |-------|-----------|
 | **Menu Utama** | ![Menu](POSTTEST_1/screenshots/MenuUtamaPT2.png) |
