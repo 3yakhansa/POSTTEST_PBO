@@ -143,12 +143,13 @@ Inheritance (pewarisan) adalah konsep di mana sebuah kelas (subclass/anak) dapat
 ### D. Hasil Output
 | Fitur | Screenshot |
 |-------|-----------|
-| **Menu Utama** | ![Menu](POSTTEST_1/screenshots/MenuUtamaPT2.png) |
-| **Tambah Data** | ![Create](POSTTEST_1/screenshots/tambahData2.png) |
-| **Lihat Data Kucing** | ![Read](POSTTEST_1/screenshots/lihatKucing2.png) |
-| **Update Data Kucing** | ![Update](POSTTEST_1/screenshots/updateKucing2.png) |
-| **Hapus Kucing** | ![Delete](POSTTEST_1/screenshots/hapusKucing2.png) |
-| **Tes Protected Access** | ![Protected](POSTTEST_1/screenshots/TesProtected2.png) |
-| **Keluar** | ![Exit](POSTTEST_1/screenshots/keluar2.png) |
+| **Menu Utama** | ![Menu](POSTTEST_PBO/POSTTEST_3/screenshots/TampilanMenu.png) |
+| **Tambah Kucing Domestik** | ![Tambah Domestik](POSTTEST_PBO/POSTTEST_3/screenshots/tambahDomestik.png) |
+| **Tambah Kucing Langka** | ![Tambah Langka](POSTTEST_PBO/POSTTEST_3/screenshots/tambahLangka.png) |
+| **Tambah Kucing Feral** | ![Tambah Feral](POSTTEST_PBO/POSTTEST_3/screenshots/tambahFeral.png) |
+| **Lihat Semua Kucing** | ![Read](POSTTEST_PBO/POSTTEST_3/screenshots/lihatKucing.png) |
+| **Update Data Kucing** | ![Update](POSTTEST_PBO/POSTTEST_3/screenshots/updateKucing.png) |
+| **Hapus Kucing** | ![Delete](POSTTEST_PBO/POSTTEST_3/screenshots/hapusKucing.png) |
+| **Tes Protected Access** | ![Protected](POSTTEST_PBO/POSTTEST_3/screenshots/tesProtected.png) |
 
 ---
