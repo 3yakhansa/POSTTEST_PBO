@@ -143,13 +143,13 @@ Inheritance (pewarisan) adalah konsep di mana sebuah kelas (subclass/anak) dapat
 ### D. Hasil Output
 | Fitur | Screenshot |
 |-------|-----------|
-| **Menu Utama** | ![Menu](POSTTEST_PBO/POSTTEST_3/screenshots/TampilanMenu.png) |
-| **Tambah Kucing Domestik** | ![Tambah Domestik](POSTTEST_PBO/POSTTEST_3/screenshots/tambahDomestik.png) |
-| **Tambah Kucing Langka** | ![Tambah Langka](POSTTEST_PBO/POSTTEST_3/screenshots/tambahLangka.png) |
-| **Tambah Kucing Feral** | ![Tambah Feral](POSTTEST_PBO/POSTTEST_3/screenshots/tambahFeral.png) |
-| **Lihat Semua Kucing** | ![Read](POSTTEST_PBO/POSTTEST_3/screenshots/lihatKucing.png) |
-| **Update Data Kucing** | ![Update](POSTTEST_PBO/POSTTEST_3/screenshots/updateKucing.png) |
-| **Hapus Kucing** | ![Delete](POSTTEST_PBO/POSTTEST_3/screenshots/hapusKucing.png) |
-| **Tes Protected Access** | ![Protected](POSTTEST_PBO/POSTTEST_3/screenshots/tesProtected.png) |
+| **Menu Utama** | ![Menu](POSTTEST_3/screenshots/TampilanMenu.png) |
+| **Tambah Kucing Domestik** | ![Tambah Domestik](POSTTEST_3/screenshots/tambahDomestik.png) |
+| **Tambah Kucing Langka** | ![Tambah Langka](POSTTEST_3/screenshots/tambahLangka.png) |
+| **Tambah Kucing Feral** | ![Tambah Feral](POSTTEST_3/screenshots/tambahFeral.png) |
+| **Lihat Semua Kucing** | ![Read](POSTTEST_3/screenshots/lihatKucing.png) |
+| **Update Data Kucing** | ![Update](POSTTEST_3/screenshots/updateKucing.png) |
+| **Hapus Kucing** | ![Delete](POSTTEST_3/screenshots/hapusKucing.png) |
+| **Tes Protected Access** | ![Protected](POSTTEST_3/screenshots/tesProtected.png) |
 
 ---
