@@ -111,3 +111,44 @@ Program ini terdiri dari 2 file Java utama yang saling berkaitan:
 | **Hapus Kucing** | ![Delete](POSTTEST_1/screenshots/hapusKucing2.png) |
 | **Tes Protected Access** | ![Protected](POSTTEST_1/screenshots/TesProtected2.png) |
 | **Keluar** | ![Exit](POSTTEST_1/screenshots/keluar2.png) |
+
+---
+
+## POST TEST 3
+
+### A. PENGERTIAN INHERITENCE
+Inheritance (pewarisan) adalah konsep di mana sebuah kelas (subclass/anak) dapat mewarisi atribut dan metode dari kelas lain (superclass/induk). Ini mempromosikan code reuse (penggunaan kembali kode), memungkinkan pembuatan kelas baru yang lebih spesifik berdasarkan kelas yang sudah ada, serta membangun hierarki kelas "is-a".
+
+---
+
+## B. Konsep OOP yang Diterapkan
+| Konsep | Implementasi |
+|--------|--------------|
+| **Inheritance** | `Kucing` (Superclass) → `KucingDomestik`, `KucingLangka`, `KucingFeral` (Subclass) |
+| **Hierarchical Inheritance** | Satu kelas induk memiliki 3 anak kelas sesuai kategori perawatan |
+| **Encapsulation** | Atribut `private` pada `Kucing`, diakses via getter & setter |
+| **Polymorphism** | `ArrayList<Kucing>` menyimpan berbagai subclass; method `tampilkanInfo()` di-`@Override` |
+| **Access Modifier (`protected`)** | `getDetailInternal()` hanya dapat diakses oleh subclass (`KucingLangka`) |
+
+---
+
+## C. Fitur Sistem
+- ✅ **Create**: Menambah data kucing dengan pilihan jenis (Domestik/Langka/Feral)
+- ✅ **Read**: Menampilkan daftar lengkap dengan info spesifik tiap subclass
+- ✅ **Update**: Mengubah data dasar (nama, ras, usia, status) berdasarkan ID
+- ✅ **Delete**: Menghapus data berdasarkan ID
+- ✅ **Tes Protected Access**: Mendemonstrasikan pewarisan & akses `protected`
+- ✅ **Exit**: Menutup program
+
+### D. Hasil Output
+| Fitur | Screenshot |
+|-------|-----------|
+| **Menu Utama** | ![Menu](POSTTEST_1/screenshots/MenuUtamaPT2.png) |
+| **Tambah Data** | ![Create](POSTTEST_1/screenshots/tambahData2.png) |
+| **Lihat Data Kucing** | ![Read](POSTTEST_1/screenshots/lihatKucing2.png) |
+| **Update Data Kucing** | ![Update](POSTTEST_1/screenshots/updateKucing2.png) |
+| **Hapus Kucing** | ![Delete](POSTTEST_1/screenshots/hapusKucing2.png) |
+| **Tes Protected Access** | ![Protected](POSTTEST_1/screenshots/TesProtected2.png) |
+| **Keluar** | ![Exit](POSTTEST_1/screenshots/keluar2.png) |
+
+---
