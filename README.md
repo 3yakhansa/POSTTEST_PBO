@@ -133,12 +133,12 @@ Inheritance (pewarisan) adalah konsep di mana sebuah kelas (subclass/anak) dapat
 ---
 
 ## C. Fitur Sistem
-- ✅ **Create**: Menambah data kucing dengan pilihan jenis (Domestik/Langka/Feral)
-- ✅ **Read**: Menampilkan daftar lengkap dengan info spesifik tiap subclass
-- ✅ **Update**: Mengubah data dasar (nama, ras, usia, status) berdasarkan ID
-- ✅ **Delete**: Menghapus data berdasarkan ID
-- ✅ **Tes Protected Access**: Mendemonstrasikan pewarisan & akses `protected`
-- ✅ **Exit**: Menutup program
+- **Create**: Menambah data kucing dengan pilihan jenis (Domestik/Langka/Feral)
+- **Read**: Menampilkan daftar lengkap dengan info spesifik tiap subclass
+- **Update**: Mengubah data dasar (nama, ras, usia, status) berdasarkan ID
+- **Delete**: Menghapus data berdasarkan ID
+- **Tes Protected Access**: Mendemonstrasikan pewarisan & akses `protected`
+- **Exit**: Menutup program
 
 ### D. Hasil Output
 | Fitur | Screenshot |
