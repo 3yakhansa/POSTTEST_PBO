@@ -196,11 +196,11 @@ Inheritance (pewarisan) adalah konsep di mana sebuah kelas (subclass/anak) dapat
 
 | Fitur | Screenshot |
 |-------|-----------|
-| **Tambah Kucing** | ![Create](POSTTEST_4/screenshots/tambahKucing.png) |
-| **Lihat Semua Kucing** | ![Read](POSTTEST_4/screenshots/lihatKucing.png) |
-| **Update Data Kucing** | ![Update](POSTTEST_4/screenshots/updateKucing.png) |
-| **Hapus Kucing** | ![Delete](POSTTEST_4/screenshots/hapusKucing.png) |
-| **Tes Protected Access** | ![Protected](POSTTEST_4/screenshots/tesProtected.png) |
+| **Tambah Kucing** | ![Create](POSTTEST_4/screenshot/tambahKucing.png) |
+| **Lihat Semua Kucing** | ![Read](POSTTEST_4/screenshot/lihatKucing.png) |
+| **Update Data Kucing** | ![Update](POSTTEST_4/screenshot/updateKucing.png) |
+| **Hapus Kucing** | ![Delete](POSTTEST_4/screenshot/hapusKucing.png) |
+| **Tes Protected Access** | ![Protected](POSTTEST_4/screenshot/tesProtected.png) |
 
 ---
 
