@@ -153,3 +153,62 @@ Inheritance (pewarisan) adalah konsep di mana sebuah kelas (subclass/anak) dapat
 | **Tes Protected Access** | ![Protected](POSTTEST_3/screenshots/tesProtected.png) |
 
 ---
+
+## POST TEST 4
+
+# 🐾 Laporan Proyek: Sistem Manajemen Shelter Kucing (PawPatrol)
+
+Proyek ini mengimplementasikan sistem manajemen data shelter kucing berbasis Console menggunakan bahasa pemrograman Java. Sistem ini memanfaatkan prinsip **Object-Oriented Programming (OOP)**, khususnya **Inheritance** dan **Polymorphism**, untuk mengelola berbagai jenis kucing dengan logika bisnis yang berbeda namun tetap terstruktur dalam satu antarmuka yang seragam.
+
+---
+
+## A. Pengertian Polymorphism
+**Polymorphism** (polimorfisme) adalah salah satu pilar utama dalam Pemrograman Berorientasi Objek (OOP) yang berasal dari kata Yunani *poly* (banyak) dan *morph* (bentuk). Secara konseptual, polimorfisme memungkinkan suatu objek atau referensi untuk mengambil banyak bentuk. Dalam praktik pemrograman, hal ini berarti metode dengan nama yang sama dapat memiliki perilaku berbeda tergantung pada tipe objek yang memanggilnya saat *runtime* (*dynamic binding*) atau berdasarkan parameter yang diberikan saat *compile-time* (*overloading*). Polimorfisme meningkatkan fleksibilitas kode, mempermudah pemeliharaan, dan memungkinkan penghapusan kode berulang (*code duplication*).
+
+---
+
+## B. Konsep Polymorphism yang Diterapkan
+
+1. **Runtime Polymorphism (Method Overriding & Dynamic Method Dispatch)**
+   - Kelas turunan (`KucingDomestik`, `KucingLangka`, `KucingFeral`) melakukan *override* terhadap metode `tampilkanInfo()`, `hitungBiayaPerawatan()`, dan `toString()` dari kelas induk `Kucing`.
+   - Saat perulangan `for (Kucing k : dataKucing)` berjalan, pemanggilan `k.tampilkanInfo()` dan `k.hitungBiayaPerawatan()` secara otomatis mengeksekusi implementasi yang sesuai dengan tipe objek sebenarnya di memori, meskipun referensinya bertipe `Kucing`.
+
+2. **Compile-time Polymorphism (Method Overloading)**
+   - Terlihat pada kelas `Kucing` dengan metode `setStatus(String)` dan `setStatus(String, String)`, serta `hitungBiayaPerawatan(int)` dan `hitungBiayaPerawatan(int, boolean)`.
+   - Kompilator memilih metode yang tepat berdasarkan jumlah dan tipe argumen yang dikirimkan saat pemanggilan.
+
+3. **Upcasting & Generic Collection**
+   - `ArrayList<Kucing>` digunakan sebagai wadah penyimpanan yang bersifat polimorfik. Objek dari ketiga subclass dapat dimasukkan ke dalam list yang sama berkat *upcasting* implisit.
+   - Hal ini memungkinkan operasi CRUD dilakukan secara seragam tanpa perlu membuat array/list terpisah untuk setiap jenis kucing.
+
+4. **Akses `protected` dalam Hierarki**
+   - Metode `getDetailInternal()` pada `Kucing` dideklarasikan sebagai `protected`. Ini mendemonstrasikan bahwa polimorfisme dan enkapsulasi dapat berjalan beriringan: subclass (`KucingLangka`) dapat mengakses metode tersebut, namun kelas di luar hierarki tidak bisa.
+
+---
+
+## C. Fitur Sistem
+| No | Fitur | Keterangan |
+|----|-------|------------|
+| 1 | **CRUD Interaktif** | Menu untuk Create, Read, Update, dan Delete data kucing |
+| 2 | **Multi-Tipe Kucing** | Mendukung 3 entitas: Domestik, Langka, dan Feral dengan atribut |
+| 3 | **Kalkulasi Biaya Dinamis** | Estimasi biaya perawatan otomatis menyesuaikan ras, vaksinasi, sertifikasi, dan status TNR |
+| 4 | **Demo Protected Access** | Menu khusus (#5) untuk menguji aksesibilitas anggota kelas induk oleh subclass |
+| 5 | **Auto-ID Generation** | Penomoran ID otomatis menggunakan `idCounter` static |
+| 6 | **Logging Update** | Pencatatan alasan perubahan status pada konsol saat update dilakukan |
+
+---
+
+## D. Hasil Output
+
+| Fitur | Screenshot |
+|-------|-----------|
+| **Tambah Kucing Domestik** | ![Tambah Domestik](POSTTEST_4/screenshots/tambahDomestik.png) |
+| **Tambah Kucing Langka** | ![Tambah Langka](POSTTEST_4/screenshots/tambahLangka.png) |
+| **Tambah Kucing Feral** | ![Tambah Feral](POSTTEST_4/screenshots/tambahFeral.png) |
+| **Lihat Semua Kucing** | ![Read](POSTTEST_4/screenshots/lihatKucing.png) |
+| **Update Data Kucing** | ![Update](POSTTEST_4/screenshots/updateKucing.png) |
+| **Hapus Kucing** | ![Delete](POSTTEST_4/screenshots/hapusKucing.png) |
+| **Tes Protected Access** | ![Protected](POSTTEST_4/screenshots/tesProtected.png) |
+
+---
+
