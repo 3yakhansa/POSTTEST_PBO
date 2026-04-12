@@ -156,12 +156,6 @@ Inheritance (pewarisan) adalah konsep di mana sebuah kelas (subclass/anak) dapat
 
 ## POST TEST 4
 
-# 🐾 Laporan Proyek: Sistem Manajemen Shelter Kucing (PawPatrol)
-
-Proyek ini mengimplementasikan sistem manajemen data shelter kucing berbasis Console menggunakan bahasa pemrograman Java. Sistem ini memanfaatkan prinsip **Object-Oriented Programming (OOP)**, khususnya **Inheritance** dan **Polymorphism**, untuk mengelola berbagai jenis kucing dengan logika bisnis yang berbeda namun tetap terstruktur dalam satu antarmuka yang seragam.
-
----
-
 ## A. Pengertian Polymorphism
 **Polymorphism** (polimorfisme) adalah salah satu pilar utama dalam Pemrograman Berorientasi Objek (OOP) yang berasal dari kata Yunani *poly* (banyak) dan *morph* (bentuk). Secara konseptual, polimorfisme memungkinkan suatu objek atau referensi untuk mengambil banyak bentuk. Dalam praktik pemrograman, hal ini berarti metode dengan nama yang sama dapat memiliki perilaku berbeda tergantung pada tipe objek yang memanggilnya saat *runtime* (*dynamic binding*) atau berdasarkan parameter yang diberikan saat *compile-time* (*overloading*). Polimorfisme meningkatkan fleksibilitas kode, mempermudah pemeliharaan, dan memungkinkan penghapusan kode berulang (*code duplication*).
 
@@ -202,9 +196,7 @@ Proyek ini mengimplementasikan sistem manajemen data shelter kucing berbasis Con
 
 | Fitur | Screenshot |
 |-------|-----------|
-| **Tambah Kucing Domestik** | ![Tambah Domestik](POSTTEST_4/screenshots/tambahDomestik.png) |
-| **Tambah Kucing Langka** | ![Tambah Langka](POSTTEST_4/screenshots/tambahLangka.png) |
-| **Tambah Kucing Feral** | ![Tambah Feral](POSTTEST_4/screenshots/tambahFeral.png) |
+| **Tambah Kucing** | ![Create](POSTTEST_4/screenshots/tambahKucing.png) |
 | **Lihat Semua Kucing** | ![Read](POSTTEST_4/screenshots/lihatKucing.png) |
 | **Update Data Kucing** | ![Update](POSTTEST_4/screenshots/updateKucing.png) |
 | **Hapus Kucing** | ![Delete](POSTTEST_4/screenshots/hapusKucing.png) |
