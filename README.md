@@ -269,9 +269,9 @@ Program ini mengimplementasikan tiga konsep utama dalam Pemrograman Berorientasi
 
 | Fitur | Screenshot |
 |-------|-----------|
-| **Tambah Kucing** | ![Create](ss/tambahKucing.png) |
-| **Lihat Semua Kucing** | ![Read](ss/lihatKucing.png) |
-| **Update Data Kucing** | ![Update](ss/updateKucing.png) |
-| **Hapus Kucing** | ![Delete](ss/hapusKucing.png) |
+| **Tambah Kucing** | ![Create](POSTTEST_5/ss/tambahKucing.png) |
+| **Lihat Semua Kucing** | ![Read](POSTTEST_5/ss/lihatKucing.png) |
+| **Update Data Kucing** | ![Update](POSTTEST_5/ss/updateKucing.png) |
+| **Hapus Kucing** | ![Delete](POSTTEST_5/ss/hapusKucing.png) |
 
 ---
