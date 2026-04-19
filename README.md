@@ -204,3 +204,74 @@ Inheritance (pewarisan) adalah konsep di mana sebuah kelas (subclass/anak) dapat
 
 ---
 
+## POST TEST 5
+
+## A. Pengertian Konsep OOP yang Diterapkan
+Program ini mengimplementasikan tiga konsep utama dalam Pemrograman Berorientasi Objek (OOP):
+1. **Abstract Class**: Kelas yang tidak dapat di-instansiasi secara langsung (`new Kucing()` akan error) dan berfungsi sebagai *blueprint* untuk subclass. Wajib memiliki minimal satu *abstract method* yang harus diimplementasikan oleh turunannya.
+2. **Interface**: Kontrak perilaku yang hanya mendefinisikan signature method tanpa body. Class mengimplementasikannya dengan kata kunci `implements`, memungkinkan standar perilaku yang konsisten di berbagai tipe objek.
+3. **Polymorphism**: Kemampuan objek untuk mengambil banyak bentuk. Terbagi menjadi *compile-time* (method overloading) dan *runtime* (method overriding & dynamic binding), memungkinkan pemanggilan method yang seragam pada tipe parent/interface, namun mengeksekusi logika spesifik subclass saat runtime.
+
+---
+
+## B. Konsep yang Diterapkan dalam Program
+
+1. **Abstract Class & Abstract Method**
+   - Kelas `Kucing` dideklarasikan sebagai `abstract class`. Ia memiliki abstract method `hitungBiayaPerawatan(int bulan)` yang memaksa setiap subclass (`KucingDomestik`, `KucingLangka`, `KucingFeral`) untuk menyediakan logika perhitungan biaya masing-masing.
+   - Mencegah instansiasi objek generik yang tidak memiliki perilaku spesifik.
+
+2. **Interface Implementation**
+   - Interface `PerawatanKucing` mendefinisikan kontrak dengan 2 method: `berikanPerawatanKhusus()` dan `cekKondisiKesehatan()`.
+   - Ketiga subclass mengimplementasikan interface ini (`implements PerawatanKucing`), sehingga setiap jenis kucing memiliki standar perawatan yang konsisten namun dengan detail eksekusi yang berbeda sesuai karakteristiknya.
+
+3. **Runtime Polymorphism (Method Overriding & Dynamic Dispatch)**
+   - Subclass melakukan *override* terhadap method `tampilkanInfo()`, `hitungBiayaPerawatan()`, `toString()`, serta kedua method dari interface.
+   - Saat iterasi `for (Kucing k : dataKucing)`, pemanggilan `k.hitungBiayaPerawatan()` atau casting ke `PerawatanKucing` secara otomatis mengeksekusi implementasi yang sesuai dengan tipe objek sebenarnya di memori (*dynamic binding*).
+
+4. **Compile-time Polymorphism (Method Overloading)**
+   - Terlihat pada kelas `Kucing` dengan method `setStatus(String)` vs `setStatus(String, String)`, serta `hitungBiayaPerawatan(int)` vs `hitungBiayaPerawatan(int, boolean)`.
+   - Compiler memilih signature method yang tepat berdasarkan jumlah dan tipe argumen yang dikirimkan saat pemanggilan.
+
+5. **Upcasting & Generic Collection**
+   - `ArrayList<Kucing>` digunakan sebagai wadah polimorfik. Berkat *upcasting* implisit, objek dari ketiga subclass dapat disimpan dalam satu koleksi yang sama.
+   - Memungkinkan operasi CRUD dilakukan secara seragam tanpa perlu memisahkan data berdasarkan jenis kucing.
+
+6. **Akses `protected` dalam Hierarki**
+   - Method `getDetailInternal()` pada `Kucing` menggunakan modifier `protected`. Subclass (`KucingLangka`) dapat mengaksesnya untuk fitur tes khusus, sementara class di luar hierarki inheritance tidak dapat mengaksesnya secara langsung, mendemonstrasikan enkapsulasi yang tepat.
+
+---
+
+## C. Fitur Sistem
+| No | Fitur | Keterangan |
+|----|-------|------------|
+| 1 | **CRUD Interaktif** | Menu lengkap untuk Create, Read, Update, dan Delete data kucing |
+| 2 | **Multi-Tipe Kucing** | Mendukung 3 entitas: Domestik, Langka, dan Feral dengan atribut spesifik |
+| 3 | **Kontrak Abstract & Interface** | `Kucing` sebagai abstract class & `PerawatanKucing` sebagai interface (2 method) |
+| 4 | **Kalkulasi Biaya Dinamis** | Estimasi biaya menyesuaikan ras, vaksinasi, sertifikasi, status TNR, dan extra care |
+| 5 | **Demo Protected Access** | Menu khusus (#5) menguji aksesibilitas anggota `protected` dari parent class |
+| 6 | **Auto-ID & Logging** | Penomoran ID otomatis (`idCounter`) & pencatatan alasan perubahan status saat update |
+
+---
+
+## D. Struktur File
+| File | Peran |
+|------|-------|
+| `PerawatanKucing.java` | Interface dengan 2 method kontrak |
+| `Kucing.java` | Abstract class parent, berisi field, getter/setter, abstract method, & method protected |
+| `KucingDomestik.java` | Subclass 1, implementasi interface, logika biaya & vaksin |
+| `KucingLangka.java` | Subclass 2, implementasi interface, logika biaya premium & sertifikasi |
+| `KucingFeral.java` | Subclass 3, implementasi interface, logika biaya & status TNR |
+| `Main.java` | Entry point, menu interaktif, CRUD, & demonstrasi polymorphism/interface |
+
+---
+
+## E. Hasil Output
+
+| Fitur | Screenshot |
+|-------|-----------|
+| **Tambah Kucing** | ![Create](ss/tambahKucing.png) |
+| **Lihat Semua Kucing** | ![Read](ss/lihatKucing.png) |
+| **Update Data Kucing** | ![Update](ss/updateKucing.png) |
+| **Hapus Kucing** | ![Delete](ss/hapusKucing.png) |
+
+---
